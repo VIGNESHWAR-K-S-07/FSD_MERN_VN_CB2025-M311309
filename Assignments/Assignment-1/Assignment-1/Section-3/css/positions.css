@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+.relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  font-size: x-large;
+  font-weight: 800;
+  background: red;
+}
+.absolute {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  font-size: x-large;
+  font-weight: 800;
+  background: green;
+  color: antiquewhite;
+}
+.fixed {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  font-size: x-large;
+  font-weight: 800;
+  color: antiquewhite;
+  background: blue;
+}
+.sticky {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 90%;
+  bottom: 68%;
+  width: 150px;
+  height: 150px;
+  font-size: x-large;
+  font-weight: 800;
+  background: rgb(255, 255, 0);
+}

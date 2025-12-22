@@ -1,0 +1,48 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  font-weight: bolder;
+  grid-column: 1 / 4;
+  background: lightgray;
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  font-weight: bolder;
+  background: lightblue;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  background: white;
+}
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  font-weight: bolder;
+  background: lightgreen;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-weight: bolder;
+  grid-column: 1 / 4;
+  background: lightgray;
+}

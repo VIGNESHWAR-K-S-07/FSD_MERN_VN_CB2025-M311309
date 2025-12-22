@@ -1,0 +1,14 @@
+.Display-inline a {
+  display: inline;
+  color: rgb(24, 41, 50);
+  font-size: 25px;
+  background-color: rgba(14, 83, 210, 0.379);
+  padding: 3px;
+}
+.Display-block a {
+  display: block;
+  font-size: 25px;
+  color: rgb(21, 23, 24);
+  background-color: rgba(14, 83, 210, 0.379);
+  padding: 3px;
+}

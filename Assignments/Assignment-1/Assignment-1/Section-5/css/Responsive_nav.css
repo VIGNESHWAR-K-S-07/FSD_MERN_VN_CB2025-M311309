@@ -1,0 +1,21 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  background: lightgray;
+}
+nav li {
+  margin: 10px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  nav ul {
+    background: lightblue;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: block;
+    background: pink;
+  }
+}

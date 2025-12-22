@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+  </head>
+  <body>
+    <form>
+      <label id="Username">User name</label>
+      <input type="text" placeholder="Enter User name" /><br />
+      <label id="Email">Email</label>
+      <input type="email" placeholder="Enter Email Id" /><br />
+      <label id="Password">Password</label>
+      <input type="password" placeholder="Enter Password" /><br />
+      <label id="Conform-pass">Confirm Password</label>
+      <input type="password" placeholder="Enter Password Again" /><br />
+      <label id="DOB">Date of Birth</label>
+      <input type="date" placeholder="Enter DOB" /><br />
+      <label id="Gender">Gender</label>
+      <input type="radio" placeholder="Enter User name" name="Gender" id="gender-input" />male
+      <input
+        type="radio"
+        placeholder="Enter User name"
+        name="Gender" id="gender-input"
+      />female<br />
+      <label id="country">Country</label>
+      <select name="country" id="country-list">
+        <option></option>
+        <option>India</option>
+        <option>USA</option>
+        <option>China</option></select
+      ><br />
+      <input id="checkbox" type="checkbox" unchecked /> I agree to Terms &
+      conditions. <br />
+      <button id="button" type="submit">Submit</button>
+    </form>
+
+    <style>
+      form {
+        width: 100%;
+      }
+      #Username {
+        padding-right: 54px;
+        padding-bottom: 5px;
+      }
+      #Email {
+        padding-right: 85px;
+      }
+      #Password {
+        padding-right: 62px;
+      }
+      #Conform-pass {
+        padding-right: 2px;
+      }
+      #DOB {
+        padding-right: 40px;
+      }
+      #Gender {
+        padding-right: 76px;
+      }
+      #country {
+        padding-right: 76px;
+      }
+
+      label {
+        padding: 3px;
+        margin: 2px;
+      }
+      input {
+        padding: 5px;
+        margin: 5px;
+      }
+      #country-list {
+        padding: 3px;
+        width: 150px;
+      }
+
+      #gender-input{
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+      }
+      #button {
+        margin: 5px;
+        padding: 3px;
+        background-color: rgba(25, 25, 141, 0.906);
+        color: aliceblue;
+      }
+    </style>
+  </body>
+</html>

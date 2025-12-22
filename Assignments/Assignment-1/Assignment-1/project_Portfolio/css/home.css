@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: rgb(34, 34, 32);
+  background-color: aliceblue;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 80px;
+}
+.profile img {
+  width: 150px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+.profile .btn {
+  background: rgb(20, 114, 98);
+  color: rgb(248, 248, 248);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.profile p {
+  font-size: 20px;
+}
+
+.about p {
+  text-align: justify;
+  width: auto;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.skills .flexbox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.skills .flexbox div {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: block;
+  }
+  h2 {
+    text-align: center;
+  }
+  .flexbox {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    background: purple;
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
