@@ -1,0 +1,109 @@
+.Achievement-Container {
+  padding: 12px 18px;
+  overflow-x: hidden;
+}
+.Achievement-Container span {
+  font-size: 2.3rem;
+}
+.Achievement-Container h2 {
+  font-size: 2.5rem;
+}
+
+.achievement-image {
+  width: 320px;
+  height: auto;
+  padding: 5px 5px 5px 0px;
+}
+.achievement-image img {
+  width: 320px;
+  height: auto;
+}
+.Achievements-container {
+  display: flex;
+  flex-shrink: 1;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+  border-radius: 15px;
+  padding: 20px 10px;
+  /* overflow-x: scroll; */
+  /* transition: all 2s 0s; */
+}
+
+.Achievement {
+  width: fit-content;
+  /* border: 1px solid; */
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+  /* animation: Run 50s linear 1s infinite both; */
+  margin: 5px;
+}
+
+@keyframes Run {
+  0% {
+    transform: translateX(-500%);
+    filter: brightness(100%);
+    filter: contrast(130%);
+  }
+  100% {
+    transform: translateX(400%);
+    filter: brightness(100%);
+    filter: contrast(100%);
+  }
+}
+.Achievement h4 {
+  text-align: justify;
+  padding-left: 5px;
+}
+.Achievement p {
+  width: 300px;
+  text-align: justify;
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .Achievement-Container {
+    overflow-x: none;
+  }
+  .Achievement-Container span {
+    font-size: 2rem;
+  }
+  .Achievement-Container h2 {
+    font-size: 2.2rem;
+  }
+  .Achievements-container {
+    display: block;
+    box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+    border-radius: 15px;
+    padding: 20px 10px;
+    overflow-x: auto;
+  }
+  .Achievement {
+    width: auto;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+    animation: none;
+    margin: 5px;
+    overflow-x: hidden;
+  }
+  .Achievement h4 {
+    width: auto;
+    text-align: justify;
+    padding-left: 5px;
+  }
+  .Achievement p {
+    width: auto;
+    text-align: justify;
+    padding-left: 5px;
+  }
+  .achievement-image {
+    width: 100%;
+    height: auto;
+    padding: 5px 5px 5px 0px;
+  }
+  .achievement-image img {
+    width: 100%;
+    height: auto;
+  }
+}

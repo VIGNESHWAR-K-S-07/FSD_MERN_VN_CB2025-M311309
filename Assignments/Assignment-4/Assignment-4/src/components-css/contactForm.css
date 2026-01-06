@@ -1,0 +1,122 @@
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+  border-radius: 25px;
+
+}
+
+.contact-page h2 {
+  color: #4b0082;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+
+.contact-form select:focus {
+  outline: none;
+  border-color: #4b0082;
+  box-shadow: 0 0 5px rgba(75, 0, 130, 0.4);
+}
+
+
+.submit-btn {
+  background: #4b0082;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #6a0dad;
+}
+.success-msg {
+  color: #2e7d32;            
+  background-color: #e8f5e9; 
+  border: 1px solid #2e7d32;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.error-msg {
+  color: #c62828;           
+  background-color: #ffebee; 
+  border: 1px solid #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.display-card {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  overflow-wrap:anywhere;
+  
+}
+
+.display-card h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #4b0082;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 8px 0;
+  
+}
+
+.label {
+  font-weight: 600;
+  color: #333;
+}
+
+.value {
+  color: #555;
+  text-align: right;
+}
+

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "tagline": "Innovating with AI & Data Science",
+    "icon": "💻",
+    "description": "The Computer Science Engineering department focuses on building future-ready technologists through rigorous training in software development, data structures, algorithms, and emerging fields like AI and cybersecurity.",
+    "courses": [
+      "B.Tech in Computer Science Engineering",
+      "M.Tech in Software Systems",
+      "M.Tech in Cybersecurity"
+    ],
+    "faculty": [
+      "Dr. Abinaya – AI & Machine Learning",
+      "Prof. Karthik – Cybersecurity",
+      "Dr. Meera – Software Engineering"
+    ],
+    "facilities": [
+      "AI Research Lab",
+      "Cybersecurity Center",
+      "Cloud Computing Lab"
+    ]
+  },
+  {
+    "id": "ai_ds",
+    "name": "Artificial Intelligence and Data Science",
+    "tagline": "Empowering intelligent systems and insights",
+    "icon": "🧠",
+    "description": "This department blends computer science, statistics, and domain knowledge to train students in machine learning, deep learning, and big data analytics for real-world applications.",
+    "courses": [
+      "B.Tech in AI & Data Science",
+      "M.Tech in Deep Learning",
+      "M.Tech in Big Data Analytics"
+    ],
+    "faculty": [
+      "Dr. Abinaya – Deep Learning",
+      "Prof. Sneha – Data Mining",
+      "Dr. Arvind Raj – NLP & AI Ethics"
+    ],
+    "facilities": [
+      "Deep Learning Lab",
+      "Big Data Cluster",
+      "AI Ethics Simulation Center"
+    ]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "tagline": "Designing the future of machines",
+    "icon": "⚙️",
+    "description": "Mechanical Engineering at HIT emphasizes design, manufacturing, thermodynamics, and robotics, preparing students for careers in automotive, aerospace, and industrial automation.",
+    "courses": [
+      "B.Tech in Mechanical Engineering",
+      "M.Tech in Thermal Engineering",
+      "M.Tech in CAD/CAM"
+    ],
+    "faculty": [
+      "Dr. Suresh – Fluid Mechanics",
+      "Prof. Nisha – CAD/CAM",
+      "Dr. Vikram – Robotics"
+    ],
+    "facilities": ["Thermal Lab", "CAD/CAM Studio", "Mechatronics Workshop"]
+  },
+  {
+    "id": "eee",
+    "name": "Electrical Engineering",
+    "tagline": "Powering sustainable solutions",
+    "icon": "🔌",
+    "description": "The Electrical Engineering department focuses on power systems, electronics, and renewable energy, equipping students to innovate in energy distribution and smart grid technologies.",
+    "courses": [
+      "B.Tech in Electrical Engineering",
+      "M.Tech in Power Systems",
+      "M.Tech in Renewable Energy"
+    ],
+    "faculty": [
+      "Dr. Kavitha Ramesh – Power Electronics",
+      "Prof. Arjun – Smart Grids",
+      "Dr. Priya Mohan – Renewable Systems"
+    ],
+    "facilities": [
+      "Power Systems Lab",
+      "Smart Grid Simulation Lab",
+      "Solar Energy Research Center"
+    ]
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics and Automation",
+    "tagline": "Engineering intelligent machines",
+    "icon": "🤖",
+    "description": "This department integrates mechanical, electrical, and computer engineering to develop autonomous systems, industrial robots, and intelligent automation solutions.",
+    "courses": [
+      "B.Tech in Robotics and Automation",
+      "M.Tech in Industrial Automation",
+      "M.Tech in Embedded Systems"
+    ],
+    "faculty": [
+      "Dr. Neeraj – Autonomous Systems",
+      "Prof. Divya – Embedded Control",
+      "Dr. Sanjay – Industrial Robotics"
+    ],
+    "facilities": [
+      "Robotics Lab",
+      "Automation Control Center",
+      "Embedded Systems Lab"
+    ]
+  },
+  {
+    "id": "mba",
+    "name": "Business Administration",
+    "tagline": "Shaping tomorrow’s leaders",
+    "icon": "📊",
+    "description": "The Business Administration department prepares students for leadership roles in management, finance, marketing, and entrepreneurship through case-based learning and industry exposure.",
+    "courses": [
+      "BBA in Business Administration",
+      "MBA in Strategic Management",
+      "MBA in Marketing & Analytics"
+    ],
+    "faculty": [
+      "Dr. Rekha Srinivasan – Strategic Leadership",
+      "Prof. Dinesh – Marketing Analytics",
+      "Dr. Aarthi – Financial Management"
+    ],
+    "facilities": [
+      "Business Simulation Lab",
+      "Entrepreneurship Cell",
+      "Finance & Analytics Studio"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+.vision-container {
+  padding: 12px 18px;
+}
+.vision-container span {
+  font-size: 2.3rem;
+}
+.vision-container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-right: 75px;
+}
+.visionANDmission {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.visionANDmission hr {
+  /* margin: 0 12px; */
+  padding: 2px;
+  background-color: grey;
+  border-radius: 50px;
+}
+
+.mission {
+  padding-right: 10px;
+}
+.vision {
+  padding-left: 10px;
+}
+
+.mission h3 {
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.vision h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mission p {
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: serif;
+  padding: 5px;
+}
+
+.vision p {
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: serif;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .vision-container span {
+    font-size: 2rem;
+  }
+  .vision-container h2 {
+    font-size: 2.2rem;
+    text-align: start;
+  }
+  .visionANDmission {
+    display: block;
+  }
+  .visionANDmission hr {
+    display: none;
+  }
+  .mission {
+    padding-right: 0px;
+  }
+  .mission h3 {
+    text-decoration: underline;
+  }
+  .vision {
+    padding-left: 0px;
+  }
+  .vision h3 {
+    text-decoration: underline;
+  }
+}

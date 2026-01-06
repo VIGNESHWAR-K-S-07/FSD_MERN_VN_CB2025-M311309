@@ -1,0 +1,91 @@
+
+.dept-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.212);
+  border-radius: 25px;
+}
+
+.dept-detail h2 {
+  color: #4b0082; 
+  padding: 10px;
+}
+
+.dept-detail h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #4b0082;
+}
+
+.tagline,
+.description {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.description {
+  text-align: justify;
+}
+
+.course,
+.faculty,
+.facility {
+  list-style: disc; 
+  padding-left: 1.25rem; 
+  margin: 0.5rem 0 1.5rem;
+  color: #222;
+  display: block; 
+}
+
+
+.course li,
+.faculty li,
+.facility li {
+  padding: 6px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 10px;
+}
+
+.apply-btn {
+  background: #4b0082;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background: #6a0dad;
+}
+
+
+@media (max-width: 1000px) {
+  .course,
+  .faculty,
+  .facility {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding-left: 1rem; 
+    margin-bottom: 1rem;
+    list-style: disc;
+  }
+
+  .course li,
+  .faculty li,
+  .facility li {
+    font-size: 1rem;
+    padding: 4px 0;
+  }
+}

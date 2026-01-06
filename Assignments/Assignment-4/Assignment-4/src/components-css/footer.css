@@ -1,0 +1,60 @@
+.footer-section {
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #0a192f;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+.h2 {
+  color: #fff;
+}
+
+.About p {
+  text-align: justify;
+  padding: 5px 5px;
+}
+
+.underline {
+  display: block;
+  height: 5px;
+  width: 35px;
+  margin: 4px 0;
+  background-color: yellow;
+  border-radius: 30px;
+  margin-left: 3px;
+}
+
+.Quick-Links li a {
+  padding: 8px 12px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.Quick-Links li a:hover,
+li a.active {
+  background-color: #0077b6;
+  border-radius: 6px;
+  color: #fff;
+}
+.Quick-Links li {
+  margin-left: 10px;
+  list-style: square;
+  color: rgb(255, 255, 2);
+}
+
+.copyRight {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #0a192f;
+}
+
+.copy-container {
+  display: flex;
+  justify-content: space-between;
+}
+#mail{
+    color: rgb(255, 255, 2);
+}

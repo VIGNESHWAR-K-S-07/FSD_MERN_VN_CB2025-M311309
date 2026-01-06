@@ -1,0 +1,57 @@
+.history-container {
+  padding: 12px 18px;
+}
+
+.icon {
+  font-size: 2.3rem;
+}
+
+.history-container h2 {
+  font-size: 2.5rem;
+  text-align: end;
+  padding-right: 14px;
+}
+
+.History-Desc {
+  display: flex;
+  flex-shrink: 1;
+  gap: 20px;
+}
+
+.History-Desc img {
+  max-width: 500px;
+  min-height: 350px;
+  object-fit: cover;
+}
+
+#image-Container {
+  padding: 5px;
+  border: 1px solid grey;
+  box-shadow: 0px 2px 9px 1px;
+}
+
+#Desc-container {
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: serif;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    font-size: 2rem;
+  }
+  .history-container h2 {
+    font-size: 2.2rem;
+    text-align: start;
+  }
+  .History-Desc {
+    display: block;
+    gap: 20px;
+  }
+  .History-Desc img {
+    max-width: 414px;
+    min-height: 350px;
+    object-fit: cover;
+  }
+}
